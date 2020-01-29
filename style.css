@@ -1,0 +1,38 @@
+body {
+    font: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    top: 15%;
+    background: linear-gradient(to right, red, green,blue);
+}
+
+h1 {
+    font: 600 3.5em "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    width: 100%;
+}
+
+h3 {
+    font: 900 1.5em "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+input:hover, #random:hover, #copy:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+#random, #copy {
+    margin: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}

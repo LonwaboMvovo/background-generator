@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gradient Background Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="gradient">
+    <h1>Background Generator</h1>
+    <!-- oninput="setGradient()" can also be used -->
+    <input id="color1" type="color" name="color1" value="#ff0000">
+    <input id="color2" type="color" name="color2" value="#00ff00">
+    <input id="color3" type="color" name="color3" value="#0000ff"> <br>
+    <button id="random">Random</button>
+    <h2>Current CSS Background</h2>
+    <h3 id="currentB">background: linear-gradient(to right, red, green,blue);</h3>
+    <button id="copy">Copy</button>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
