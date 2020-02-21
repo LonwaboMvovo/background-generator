@@ -66,20 +66,3 @@ function copyFunction(currentB) {
 copy.addEventListener("click", function(ev) {
     copyFunction(currentB)
 });
-
-// 
-//       var $body = document.getElementsByTagName('body')[0];
-//       var $btnCopy = document.getElementById('btnCopy');
-//       var secretInfo = document.getElementById('secretInfo').innerHTML;
-//       var copyToClipboard = function(secretInfo) {
-//         var $tempInput = document.createElement('INPUT');
-//         $body.appendChild($tempInput);
-//         $tempInput.setAttribute('value', secretInfo)
-//         $tempInput.select();
-//         document.execCommand('copy');
-//         $body.removeChild($tempInput);
-//       }
-//       $btnCopy.addEventListener('click', function(ev) {
-//         copyToClipboard(secretInfo);
-//       });
-// //

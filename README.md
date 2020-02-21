@@ -1,3 +1,3 @@
 # background-generator
 
-CSS for a particular background generated
+Gives the CSS for a particular background generated or random one
